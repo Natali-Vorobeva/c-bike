@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>триатлон</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="body">
+  <header id="open" class="header">
+    <div id="close" class="header__container">
+      <div class="header__menu">
+        <a href="#open" class="header__burger-open">
+          <span class="header__burger-span"></span>
+        </a>
+        <a href="#close" class="header__burger-close"></a>
+        <nav class="header__menu-body">
+          <ul class="header__links">
+            <li class="header__item">
+              <a class="header__link" href="#">Покрытия и градиенты</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Велосипеды</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Тренировки</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="content">
+    <section class="lead">
+      <h1 class="lead__heading">Шоссе,&nbsp;ТТ и&nbsp;Грэвел</h1>
+      <img class="lead__image" src="./images/section-title.jpg" alt="Отличный вид на лесную дорогу!!!">
+      <p class="lead__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по&nbsp;живописным
+        маршрутам&nbsp;&mdash; нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.</p>
+      <button class="lead__button">Подробнее</button>
+      <p class="lead__stamp">Cannondale Systemsix</p>
+    </section>
+    <section class="intro-quote">
+      <div class="intro-quote__image"></div>
+      <blockquote class="intro-quote__text">
+        <p class="intro-quote__extraction">&laquo;Катайся много или мало, долго или коротко, как хочешь&nbsp;-
+          но&nbsp;катайся&raquo;</p>
+        <div class="intro-quote__author">
+          <p class="intro-quote__name">Эдди Меркс</p>
+          <p class="intro-quote__profession">Велогонщик</p>
+        </div>
+      </blockquote>
+    </section>
+    <section class="slider-road">
+      <h2 class="slider-road__title">Шоссе</h2>
+      <div class="slider-road__navigation slider-road__navigation_top">
+        <label for="arrow-left" class="slider-road__arrow"><img class="arrow-size" src="./images/arrow-left.svg"
+            alt="Стрелка влево"></label>
+        <label for="arrow-right" class="slider-road__arrow"><img class="arrow-size" src="./images/arrow-right.svg"
+            alt="Стрелка вправо"></label>
+      </div>
+      <p class="slider-road__paragraph">На&nbsp;шоссейном велосипеде можно ездить&nbsp;по асфальту на&nbsp;разных
+        градиентах: будь&nbsp;то горы или равнины. Гонки проходят в&nbsp;командном пелотоне, но&nbsp;тренироваться можно
+        и&nbsp;самостоятельно.</p>
+      <div class="slider-road__gallery">
+        <input class="slider-road__input" type="radio" name="arrow" id="arrow-left" checked>
+        <input class="slider-road__input" type="radio" name="arrow" id="arrow-right">
+        <div class="slider-road__item">
+          <img class="slider-road__slide" src="./images/section-highway-way.jpg"
+            alt="Слайдер 1">
+        </div>
+        <div class="slider-road__item">
+          <img class="slider-road__slide" src="./images/section-highway-bicyclist.jpg"
+            alt="Слайдер 2">
+        </div>
+        <div class="slider-road__item">
+          <img class="slider-road__slide slider-road__slide_number_3" src="./images/section-highway-way.jpg"
+            alt="Слайдер 3">
+        </div>
+        <div class="slider-road__item">
+          <img class="slider-road__slide slider-road__slide_number_4" src="./images/section-highway-bicyclist.jpg"
+            alt="Слайдер 4">
+        </div>
+      </div>
+      <div class="slider-road__navigation slider-road__navigation_bottom">
+        <label for="arrow-left" class="slider-road__arrow"><img src="./images/arrow-left.svg"
+            alt="Стрелка влево"></label>
+        <label for="arrow-right" class="slider-road__arrow"><img src="./images/arrow-right.svg"
+            alt="Стрелка вправо"></label>
+      </div>
+    </section>
+    <section class="bikes">
+      <div class="bikes__head">
+        <h2 class="bikes__title section-title">Велосипеды</h2>
+        <ul class="bikes__filter">
+          <li class="bikes__filter-item">
+            <a href="#" class="bikes__filter-link bikes__filter-link_active">Шоссе</a>
+          </li>
+          <li class="bikes__filter-item">
+            <a href="#" class="bikes__filter-link">Грэвел</a>
+          </li>
+          <li class="bikes__filter-item">
+            <a href="#" class="bikes__filter-link">TT</a>
+          </li>
+        </ul>
+        <select class="bikes__select">
+          <option>Шоссе</option>
+          <option>Грэвел</option>
+          <option>TT</option>
+
+          </select>
+      </div>
+      <ul class="bikes-list">
+        <li class="bikes__list-item">
+          <a href="#" class="bikes__link">
+            <div class="bikes__image-wrap">
+              <img src="./images/section-bicycles-1.png" alt="Велосипед" class="bikes__image">
+            </div>
+            <span class="bikes__image-caption">Cervelo Caledonia-5</span>
+          </a>
+        </li>
+        <li class="bikes__list-item">
+          <a href="#" class="bikes__link">
+            <div class="bikes__image-wrap">
+              <img src="./images/section-bicycles-1.png" alt="Велосипед" class="bikes__image">
+            </div>
+            <span class="bikes__image-caption">Cervelo Caledonia-5</span>
+          </a>
+        </li>
+        <li class="bikes__list-item">
+          <a href="#" class="bikes__link">
+            <div class="bikes__image-wrap">
+              <img src="./images/section-bicycles-1.png" alt="Велосипед" class="bikes__image">
+            </div>
+            <span class="bikes__image-caption">Cervelo Caledonia-5</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="dots">
+        <li class="dots__item">
+          <a href="#" class="dots__link dots__link_active"></a>
+        </li>
+        <li class="dots__item">
+          <a href="#" class="dots__link"></a>
+        </li>
+        <li class="dots__item">
+          <a href="#" class="dots__link"></a>
+        </li>
+      </ul>
+    </section>
+    <section class="training">
+      <h2 class="section-title training__title">Тренировки</h2>
+      <img src="./images/section-training.jpg" alt="Асфальтная дорога в лесу" class="training__image">
+      <p class="training__description">
+        Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+        а записать эти тренировки поможет приложение Strava, а также это приложение
+        позволит построить тренировочный план.
+      </p>
+      <ul class="training__list">
+        <li class="training__item">
+          <a href="#" class="training__link">Strava</a>
+        </li>
+        <li class="training__item">
+          <a href="#" class="training__link">Komoot</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <form action="#" method="post" class="form-subscription footer__form">
+      <h3 class="form-subscription__title">Подпишитесь на рассылку&nbsp;—</h3>
+      <label for="'" class="form-subscription__label">
+        <input type="email" class="form-subscription__input" placeholder="Ваш e-mail">
+      </label>
+    </form>
+    <p class="footer__copyright">
+      © Road Club 2021
+    </p>
+  </footer>
+</body>
+
+</html>

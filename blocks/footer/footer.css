@@ -1,0 +1,12 @@
+.footer {
+  padding: calc(80 / 1440 *100%) calc(120 / 1440 *100%) calc(60 / 1440 *100%);
+  background-color: #efefef;
+}
+
+@media screen and (max-width: 480px) {
+
+  .footer {
+    padding: 60px 18px 25px;
+  }
+
+}
