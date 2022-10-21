@@ -6,7 +6,7 @@
 
 @media (max-width:768px){
   .slider-road {
-    padding-top: 42px;
+    padding-top: 38px;
     padding-bottom: 80px;
     display: grid;
     grid-template-columns: 1fr;

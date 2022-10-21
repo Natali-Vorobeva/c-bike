@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
-  line-height: 60px;
+  line-height: 1.09;
   letter-spacing: -0.5px;
   margin: 0;
 }
@@ -19,7 +19,7 @@
 @media screen and (max-width: 767px) {
 
   .section-title {
-    font-size: 40px;
+    font-size: calc(32px + (55 - 32) * ((100vw - 320px) / (768 - 320)));
     line-height: 40px
   }
 

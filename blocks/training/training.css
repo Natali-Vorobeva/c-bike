@@ -1,5 +1,5 @@
 .training {
-  padding: calc(150 / 1440 *100%) calc(120 / 1440 *100%) calc(120 / 1440 *100%);
+  padding: 208px 120px 0 0;
   display: grid;
   gap: 0 calc(160 / 1200 *100%);
   grid-template-columns: 1fr calc(580 / 1200 *100%);
@@ -14,8 +14,9 @@
 @media screen and (max-width: 767px) {
 
   .training {
-    padding: 40px 18px 60px;
+    padding-top: 40px;
     display: block;
+    padding-right: 0;
   }
 
 }
